@@ -75,7 +75,7 @@ describe Classroom do
       classroom.add_student('Alice')
 
       classroom.kick_out
-      
+
       expect(classroom.over_capacity?).to be true
 
       classroom.kick_out
