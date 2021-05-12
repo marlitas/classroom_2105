@@ -60,7 +60,6 @@ describe Classroom do
       classroom.add_student('Alice')
 
       expect(classroom.over_capacity?).to be true
-
     end
   end
 end
