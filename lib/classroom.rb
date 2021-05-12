@@ -21,6 +21,9 @@ class Classroom
     return uppercase_students
   end
   def over_capacity?
-    @students.length >= @capacity
+    @students.length > @capacity
+  end
+  def kick_out
+    @students.shift
   end
 end
